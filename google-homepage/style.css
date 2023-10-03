@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 13px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header footer {
+    flex-shrink: 0;
+}
+
+.nav {
+    padding: 6px;
+}
+
+.nav-link-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0 15px;
+    flex-wrap: nowrap;
+}
+
+.nav-img-tab {
+    display: flex;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+  }  
+
+#google-app {
+    padding: 8px;
+}
+
+#google-acc {
+    padding: 4px;
+}
+
+.nav-content-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 48px;
+}
+
+.nav-content-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 48px;
+}
+
+.layer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+}
+
+section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+input {
+    border: 0px solid;
+    width: 100%;
+    align-self: center;
+    font-size: 16px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 16px;
+    min-width: 584px;
+}
+
+.search-bar-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 16px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
