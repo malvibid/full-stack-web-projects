@@ -11,11 +11,15 @@ dotenv.config({
 import { buildConfig } from 'payload/config'
 
 import { Pages } from './collections/Pages'
+import Studies from './collections/Studies'
+import Categories from './collections/Categories'
+import FormSubmissions from './collections/FormSubmissions'
+import Media from './collections/Media'
 import BeforeLogin from './components/BeforeLogin'
 
 export default buildConfig({
   serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL || '',
-  collections: [Pages],
+  collections: [Pages, Studies, Categories, FormSubmissions, Media],
   admin: {
     bundler: webpackBundler(),
     components: {

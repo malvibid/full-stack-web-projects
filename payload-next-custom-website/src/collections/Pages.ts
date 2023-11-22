@@ -1,6 +1,7 @@
-import type { CollectionConfig } from 'payload/types'
+import { CollectionConfig } from 'payload/types'
 
-import formatSlug from '../utilities/formatSlug'
+import meta from '../fields/meta'
+import slug from '../fields/slug'
 
 export const Pages: CollectionConfig = {
   slug: 'pages',
@@ -22,17 +23,8 @@ export const Pages: CollectionConfig = {
       type: 'richText',
       label: 'Content',
     },
-    {
-      name: 'slug',
-      label: 'Slug',
-      type: 'text',
-      admin: {
-        position: 'sidebar',
-      },
-      hooks: {
-        beforeValidate: [formatSlug('title')],
-      },
-    },
+    slug,
+    meta,
   ],
 }
 
