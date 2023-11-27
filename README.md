@@ -1,5 +1,7 @@
 # full-stack-web-projects
 
-| ID | Project Name | Technologies | Date Started | Date Completed | Live Demo |
-|----|--------------|----|--------------|----------------|------|
-| 1 | [Google Homepage Layout](./google-homepage/) | HTML, CSS | 25/03/2022 | 25/03/2022 | [🔗](https://malvibid.github.io/full-stack-web-projects/google-homepage/)|
+| ID  | Project Name                                                       | Technologies                                                                 | Date Started | Date Completed | Live Demo                                                                             |
+| --- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ------------ | -------------- | ------------------------------------------------------------------------------------- |
+| 1   | [Google Homepage Layout](./google-homepage/)                       | HTML, CSS                                                                    | 25/03/2022   | 25/03/2022     | [🔗](https://malvibid.github.io/full-stack-web-projects/google-homepage/)             |
+| 2   | [PayloadCMS NextJs Custom Website](./payload-next-custom-website/) | NextJs, Payload, TypeScript, HTML, CSS                                       | 20/11/2023   | ongoing        | [🔗](https://malvibid.github.io/full-stack-web-projects/payload-next-custom-website/) |
+| 3   | [Digital Hippo Marketplace](./digital-hippo-marketplace/)          | Next.js 14, React, tRPC, shadcn, Tailwind, PayloadCMS, TypeScript, HTML, CSS | 27/11/2023   | ongoing        | [🔗](https://malvibid.github.io/full-stack-web-projects/digital-hippo-marketplace/)   |
