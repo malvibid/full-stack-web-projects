@@ -9,6 +9,14 @@ by Josh tried coding
 -   11:17 - Making this look good right away
 -   25:05 - Creating our landing page
 -   44:40 - Creating our dynamic, beautiful navbar
+-   1:32:44 - Creating our shopping cart
+-   1:55:55 - Setting up our server
+-   2:14:30 - Setting up our admin dashboard
+
+2:34:39 - How do we handle the auth flow?
+2:40:10 - Implementing our auth flow
+3:03:29 - tRPC setup (super handy backend tool)
+3:32:33 - Finishing our auth flow
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
